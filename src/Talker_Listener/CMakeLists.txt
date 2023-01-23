@@ -211,3 +211,15 @@ target_link_libraries(Talker ${catkin_LIBRARIES})
 add_executable(Listener src/main_listener.cpp)
 target_link_libraries(Listener ${catkin_LIBRARIES})
 
+catkin_install_python(PROGRAMS
+  scripts/main_talker.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+catkin_install_python(PROGRAMS
+  scripts/main_listener.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+
+

@@ -23,6 +23,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/lio/ROS1_Practice/src/Hello_World/scripts/main.py"
   "/home/lio/ROS1_Practice/src/Talker_Listener/CMakeLists.txt"
   "/home/lio/ROS1_Practice/src/Talker_Listener/package.xml"
+  "/home/lio/ROS1_Practice/src/Talker_Listener/scripts/main_listener.py"
+  "/home/lio/ROS1_Practice/src/Talker_Listener/scripts/main_talker.py"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"
   "/opt/ros/melodic/share/catkin/cmake/all.cmake"
   "/opt/ros/melodic/share/catkin/cmake/assert.cmake"

@@ -52,3 +52,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Talker_Listener" TYPE FILE FILES "/home/lio/ROS1_Practice/src/Talker_Listener/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Talker_Listener" TYPE PROGRAM FILES "/home/lio/ROS1_Practice/build/Talker_Listener/catkin_generated/installspace/main_talker.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Talker_Listener" TYPE PROGRAM FILES "/home/lio/ROS1_Practice/build/Talker_Listener/catkin_generated/installspace/main_listener.py")
+endif()
+

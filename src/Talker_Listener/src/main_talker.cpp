@@ -5,7 +5,7 @@
 int main(int argc, char* argv[]){
     ros::init(argc,argv,"talker");
     ros::NodeHandle nh;
-    ros::Publisher pub = nh.advertise<std_msgs::String>("Chat",10);
+    ros::Publisher pub = nh.advertise<std_msgs::String>("chat",10);
 
     std_msgs::String msg;
     std::string msg_font = "Hello";
@@ -21,7 +21,7 @@ int main(int argc, char* argv[]){
 
     while(ros::ok()){
         gettimeofday(&start,NULL);
-
+        
         std::stringstream ss;
         ss << msg_font << count;
         msg.data = ss.str();

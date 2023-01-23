@@ -8,7 +8,7 @@ void callback(const std_msgs::String::ConstPtr& msg){
 int main(int argc, char*argv[]){
     ros::init(argc,argv,"Listener");
     ros::NodeHandle nh;
-    ros::Subscriber sub = nh.subscribe<std_msgs::String>("Chat",10,callback);
+    ros::Subscriber sub = nh.subscribe<std_msgs::String>("chat",10,callback);
 
     ros::spin();   
     // 這邊如果打ros::spinOnce()就只會用跑一次 然後就結束了,但是spin()就會一直停在這行,上面的程式都不會運行
