@@ -207,6 +207,7 @@ include_directories(
 
 add_executable(hello src/main.cpp)
 target_link_libraries(hello ${catkin_LIBRARIES})
+
 message( [STATUS ${catkin_LIBRARIES})
 
 
@@ -214,4 +215,5 @@ catkin_install_python(PROGRAMS
   scripts/main.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
 message( [STATUS ${CATKIN_PACKAGE_BIN_DESTINATION})

@@ -272,6 +272,12 @@ SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 //Name of the computer/site where compile is being run
 SITE:STRING=lio
 
+//Value Computed by CMake
+Talker_Listener_BINARY_DIR:STATIC=/home/lio/ROS1_Practice/build/Talker_Listener
+
+//Value Computed by CMake
+Talker_Listener_SOURCE_DIR:STATIC=/home/lio/ROS1_Practice/src/Talker_Listener
+
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 
@@ -488,7 +494,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
