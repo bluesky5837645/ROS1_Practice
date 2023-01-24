@@ -6,4 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("Hello_World")
+subdirs("Self_defined_Msg")
 subdirs("Talker_Listener")

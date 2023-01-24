@@ -7,7 +7,8 @@
       },
       "includePath": [
         "/opt/ros/melodic/include/**",
-        "/home/lio/桌面/ROS1_Practice/src/Hello_World/include/**",
+        "/home/lio/ROS1_Practice/devel/include/Self_defined_Msg/**",
+        "/home/lio/ROS1_Practice/src/Hello_World/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

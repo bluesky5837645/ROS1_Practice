@@ -1,0 +1,8 @@
+prefix=/home/lio/ROS1_Practice/devel
+
+Name: Self_defined_Msg
+Description: Description of Self_defined_Msg
+Version: 0.0.0
+Cflags: -I/home/lio/ROS1_Practice/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs
