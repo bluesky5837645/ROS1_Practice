@@ -15,6 +15,7 @@ if __name__ == "__main__":
     p.age = 20
     p.height = 166.6
 
+    rospy.sleep(rospy.Duration(1))   # 在C++裡面是這樣打的: ros::Duration(1).sleep()
     while not rospy.is_shutdown():
         rospy.loginfo("Talker publish: %s, %d, %f",p.name, p.age, p.height)
         pub.publish(p)

@@ -8,5 +8,5 @@ def callback(msg):
 
 if __name__ == "__main__":
     rospy.init_node("listener")
-    sub = rospy.Subscriber("caht",person)
+    sub = rospy.Subscriber("caht",person,queue_size=10)
     rospy.spin()
